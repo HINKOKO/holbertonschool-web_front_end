@@ -63,7 +63,7 @@
 	--header-logo-link-left: 0;
 	/* Final touch variables */
 	--transition-duration: .3s;
-	--transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1,01);
+	--transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
 *,
@@ -115,7 +115,7 @@ a:active {
 	color: var(--button-hover-color);
 	text-decoration: var(--button-hover-text-decoration);
 	background: var(--button-hover-background);
-	transition: var(--transition-duration);
+	transition-duration: var(--transition-duration);
 	transition-property: color, background-color;
 }
 
